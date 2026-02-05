@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #0a6ed1;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.event {
+    display: flex;
+    justify-content: center;
+    margin: 30px 15px;
+}
+
+.event-box {
+    background: #fff;
+    padding: 25px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.event-box h2 {
+    margin-bottom: 15px;
+}
+
+.event-box p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.primary {
+    background: #0a6ed1;
+    color: #fff;
+}
+
+.telegram {
+    background: #0088cc;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.structure {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+.structure h2 {
+    margin-bottom: 10px;
+}
+
+.structure img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+
+.structure ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.structure li {
+    margin-bottom: 6px;
+}
+
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
